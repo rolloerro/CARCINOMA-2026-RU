@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+
+# Env
+.env
+.env.*
+
+.env
+node_modules
+files/
+
+# Logs
+logs/
+*.log
+
+# System
+.DS_Store
+.env
