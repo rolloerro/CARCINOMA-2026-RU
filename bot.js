@@ -2,7 +2,7 @@ import { Telegraf, Markup } from "telegraf";
 import dotenv from "dotenv";
 import { getPdfText, searchInPDF } from "./pdfProcessor.js";
 
-dotenv.config();
+dotenv.config(); 
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
